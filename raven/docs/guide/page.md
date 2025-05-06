@@ -6,13 +6,15 @@
 Raven 目前使用rust编译 工具链进行数据编译
 如果你还没有安装 Rust, 你可以使用官方提供的 rustup 安装 Rust.
 
-# https://www.rust-lang.org/zh-CN/
-
 :::tip
 当前 支持的 Rust 版本为 1.85. 运行 rustup update确认您已经安装了符合要求的 Rust.
 :::
 
-## 安装脚手架
+```md
+# Hello world
+```
+
+## Use component
 
 When you want to use React components in Markdown files, you should name your files with `.mdx` extension. For example:
 
