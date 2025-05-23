@@ -13,7 +13,7 @@ hero:
       text: GitHub
       link: https://github.com/e72uj/raven
   image:
-    src: https://img.picui.cn/free/2025/05/03/6815c7b966355.png
+    src: https://imgs.freeimg.cn/s/68309e7895514.png
     alt: Logo
 features:
   - title: 直观的声明样式标记语言
@@ -27,6 +27,7 @@ features:
     icon: 🎨
   - title: 音频管理系统
     details: 完善的音乐、音效和语音支持，为您的故事创造沉浸式的听觉体验。
+    icon: 🎵
   - title: 跨平台支持
     details: 一次开发，多平台发布，支持Windows、Mac、Linux、Android和iOS等平台。
     icon: 🌈

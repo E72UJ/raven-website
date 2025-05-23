@@ -10,6 +10,10 @@
     "activeMatch": "/hello/"
   },
   {
+    "text": "文档",
+    "link": "https://doc.raven.rs/"
+  },
+  {
     "text": "镜像",
     "link": "/cdn/",
     "activeMatch": "/cdn/"

@@ -11,10 +11,10 @@ export default defineConfig({
     ['meta', { name: 'author', content: 'John Doe' }]
 
   ],
-  icon: 'https://s21.ax1x.com/2025/04/12/pERffsK.png',
+  icon: 'https://imgs.freeimg.cn/s/68309e7895514.png',
   logo: {
-    light: 'https://img.picui.cn/free/2025/05/03/6815c7b966355.png',
-    dark: 'https://img.picui.cn/free/2025/05/03/6815c7b966355.png',
+    light: 'https://imgs.freeimg.cn/s/68309e7895514.png',
+    dark: 'https://imgs.freeimg.cn/s/68309e7895514.png',
   },
   themeConfig: {
     socialLinks: [
