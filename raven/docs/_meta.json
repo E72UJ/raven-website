@@ -5,6 +5,11 @@
     "activeMatch": "/guide/"
   },
   {
+    "text": "下载",
+    "link": "/download/",
+    "activeMatch": "/download/"
+  },
+  {
     "text": "关于",
     "link": "/hello/",
     "activeMatch": "/hello/"
@@ -14,12 +19,8 @@
     "link": "https://doc.raven.rs/"
   },
   {
-    "text": "镜像",
-    "link": "/cdn/",
-    "activeMatch": "/cdn/"
-  },
-  {
-    "text": "API",
-    "link": "https://rspress.dev/api/index.html"
+    "text": "日志",
+    "link": "/log/",
+    "activeMatch": "/log/"
   }
 ]

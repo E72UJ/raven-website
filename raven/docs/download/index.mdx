@@ -1,0 +1,147 @@
+# Raven Engine 0.16 ”破晓“
+![17068](https://imgs.freeimg.cn/s/68c411134ec44.png)
+
+Raven Engine 可免费下载并用于商业和非商业用途。您可以根据其 MIT 许可条款对其进行修改和分发。
+
+<div style={{
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    gap: '20px',
+    flexWrap: 'wrap',
+    margin: '20px 0'
+}}>
+    <button 
+        onClick={() => {
+            const link = document.createElement('a');
+            link.href = 'https://your-download-url.com/file.zip'; // 替换为你的下载链接
+            link.download = 'filename.zip'; // 替换为你想要的文件名
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }}
+        style={{
+            width: '200px',
+            height: '50px',
+            backgroundColor: '#007bff',
+            color: 'white',
+            border: 'none',
+            borderRadius: '8px',
+            fontSize: '16px',
+            fontWeight: 'bold',
+            cursor: 'pointer',
+            transition: 'all 0.3s ease',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            outline: 'none'
+        }}
+        onMouseEnter={(e) => {
+            e.target.style.backgroundColor = '#0056b3';
+            e.target.style.transform = 'translateY(-2px)';
+            e.target.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.2)';
+        }}
+        onMouseLeave={(e) => {
+            e.target.style.backgroundColor = '#007bff';
+            e.target.style.transform = 'translateY(0)';
+            e.target.style.boxShadow = 'none';
+        }}
+    >
+        Mac M-X SDK
+    </button>
+
+    <button 
+        onClick={() => {
+            const link = document.createElement('a');
+            link.href = 'https://your-download-url.com/file.zip'; // 替换为你的下载链接
+            link.download = 'filename.zip'; // 替换为你想要的文件名
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }}
+        style={{
+            width: '200px',
+            height: '50px',
+            backgroundColor: '#007bff',
+            color: 'white',
+            border: 'none',
+            borderRadius: '8px',
+            fontSize: '16px',
+            fontWeight: 'bold',
+            cursor: 'pointer',
+            transition: 'all 0.3s ease',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            outline: 'none'
+        }}
+        onMouseEnter={(e) => {
+            e.target.style.backgroundColor = '#0056b3';
+            e.target.style.transform = 'translateY(-2px)';
+            e.target.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.2)';
+        }}
+        onMouseLeave={(e) => {
+            e.target.style.backgroundColor = '#007bff';
+            e.target.style.transform = 'translateY(0)';
+            e.target.style.boxShadow = 'none';
+        }}
+    >
+        Mac Intel SDK
+    </button>
+
+    <button 
+        onClick={() => {
+            const link = document.createElement('a');
+            link.href = 'https://your-download-url.com/file.zip'; // 替换为你的下载链接
+            link.download = 'filename.zip'; // 替换为你想要的文件名
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }}
+        style={{
+            width: '200px',
+            height: '50px',
+            backgroundColor: '#007bff',
+            color: 'white',
+            border: 'none',
+            borderRadius: '8px',
+            fontSize: '16px',
+            fontWeight: 'bold',
+            cursor: 'pointer',
+            transition: 'all 0.3s ease',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            outline: 'none'
+        }}
+        onMouseEnter={(e) => {
+            e.target.style.backgroundColor = '#0056b3';
+            e.target.style.transform = 'translateY(-2px)';
+            e.target.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.2)';
+        }}
+        onMouseLeave={(e) => {
+            e.target.style.backgroundColor = '#007bff';
+            e.target.style.transform = 'translateY(0)';
+            e.target.style.boxShadow = 'none';
+        }}
+    >
+        Windows SDK
+    </button>
+</div>
+## 公告
+我很高兴地宣布 Raven Engine 0.1.6 正式发布。此版本是一个重要更新，包含许多重要的改进和功能。
+
+Raven Engine 0.1.6 的一些新功能和改进包括：
+
+Raven Engine 现在在所有平台上使用最新的 Rust 1.72 编译器。
+
+资源管理、Vulkan 渲染和物理计算方面的性能均得到了显著提升。
+
+Raven Engine 支持原生加载swf 文件格式。
+
+新的 plugins 和 extensions 目录允许按照优化的加载顺序来有组织地放置插件和扩展。
+RVN 配置语言已全面重写，支持嵌套结构、条件编译和模块化导入。
+
+## 编辑器下载
+首次编辑项目文件时，Raven Engine 启动器会提示您下载并安装代码编辑器。由于网络连接不稳定，此操作可能会失败，国内比较快速的下载地址如下：
+https://www.baihezi.com/vscode/download
